@@ -252,13 +252,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // =========================================================================
   const productData = {
     'power-blue': {
-      title: 'DEEPKILL Power Blue Original',
+      title: 'DEEPKIL Power Blue Original',
       tag: '10X Active Formula • Flagship Edition',
-      image: 'assets/images/deepkill-hero-bottle.jpg',
-      fallbackImage: '/Users/vutukurisaiteja/.gemini/antigravity-ide/brain/88125a75-842d-4b5a-918e-759e62e9b434/deepkill_hero_bottle_1790181756682.jpg',
+      image: 'assets/images/deepkil-hero-bottle.jpg',
       badge: 'Best Seller',
       price: '₹145 (750 ml)',
-      desc: 'DEEPKILL Power Blue Original is engineered with high-density clinging viscosity that coats bowl ceramics 3x longer than ordinary liquid cleaners, dissolving stubborn yellow rings, limescale, and bacteria effortlessly.',
+      desc: 'DEEPKIL Power Blue Original is engineered with high-density clinging viscosity that coats bowl ceramics 3x longer than ordinary liquid cleaners, dissolving stubborn yellow rings, limescale, and bacteria effortlessly.',
       benefits: [
         '10X Active Clinging Gel adheres without dripping off',
         'Dissolves tough Indian borewell water mineral deposits',
@@ -274,13 +273,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     'citrus-red': {
-      title: 'DEEPKILL Citrus Power Blast',
+      title: 'DEEPKIL Citrus Power Blast',
       tag: 'Natural Citrus Acid Descaler',
-      image: 'assets/images/deepkill-citrus-red.jpg',
-      fallbackImage: '/Users/vutukurisaiteja/.gemini/antigravity-ide/brain/88125a75-842d-4b5a-918e-759e62e9b434/deepkill_citrus_red_1790181782748.jpg',
+      image: 'assets/images/deepkil-citrus-red.jpg',
       badge: 'Scale Specialist',
       price: '₹155 (750 ml)',
-      desc: 'Formulated with organic citrus descaling bio-acids, DEEPKILL Citrus Power targets iron-rich rust lines and heavy calcium calcification while filling your bathroom with a zesty, invigorating lemon freshness.',
+      desc: 'Formulated with organic citrus descaling bio-acids, DEEPKIL Citrus Power targets iron-rich rust lines and heavy calcium calcification while filling your bathroom with a zesty, invigorating lemon freshness.',
       benefits: [
         'Citrus chelation technology lifts deep reddish-brown rust streaks',
         'Cuts through alkaline borewell water crust',
@@ -296,10 +294,9 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     'marine-fresh': {
-      title: 'DEEPKILL Marine Fresh Gel',
+      title: 'DEEPKIL Marine Fresh Gel',
       tag: '48H Ocean Breeze Malodor Shield',
-      image: 'assets/images/deepkill-marine-fresh.jpg',
-      fallbackImage: '/Users/vutukurisaiteja/.gemini/antigravity-ide/brain/88125a75-842d-4b5a-918e-759e62e9b434/deepkill_marine_fresh_1790182034132.jpg',
+      image: 'assets/images/deepkil-marine-fresh.jpg',
       badge: 'Fresh Fragrance',
       price: '₹155 (750 ml)',
       desc: 'Infused with long-lasting marine essential oils and active foaming agents, this variant neutralizes humidity odors while depositing a microscopic dirt-repellent protective layer on the bowl surface.',
@@ -318,13 +315,12 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     },
     'value-pack': {
-      title: 'DEEPKILL Super Saver Twin Pack',
+      title: 'DEEPKIL Super Saver Twin Pack',
       tag: 'Multi-Bathroom Complete Hygiene Bundle',
-      image: 'assets/images/deepkill-twin-pack.jpg',
-      fallbackImage: '/Users/vutukurisaiteja/.gemini/antigravity-ide/brain/88125a75-842d-4b5a-918e-759e62e9b434/deepkill_twin_pack_1790182061013.jpg',
+      image: 'assets/images/deepkil-twin-pack.jpg',
       badge: 'Save 25%',
       price: '₹249 (2 × 750 ml) — Save ₹41',
-      desc: 'The best-value hygiene solution for Indian families with multiple bathrooms. Includes 1x DEEPKILL Power Blue (750ml) for heavy stain elimination and 1x DEEPKILL Citrus Power (750ml) for refreshing descaling.',
+      desc: 'The best-value hygiene solution for Indian families with multiple bathrooms. Includes 1x DEEPKIL Power Blue (750ml) for heavy stain elimination and 1x DEEPKIL Citrus Power (750ml) for refreshing descaling.',
       benefits: [
         'Maximum savings of 25% compared to single bottles',
         'Covers master bedroom and guest washrooms completely',
@@ -367,7 +363,7 @@ document.addEventListener('DOMContentLoaded', () => {
       productModalContent.innerHTML = `
         <div class="product-modal-grid">
           <div class="modal-bottle-view">
-            <img src="${data.image}" onerror="this.onerror=null; this.src='${data.fallbackImage}'" alt="${data.title}" />
+            <img src="${data.image}" alt="${data.title}" />
           </div>
           <div>
             <div class="product-badge badge-popular" style="position: static; display: inline-block; margin-bottom: 10px;">${data.badge}</div>
